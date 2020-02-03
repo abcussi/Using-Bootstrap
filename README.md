@@ -1,4 +1,4 @@
-# Building with Responsive Design
+# Using Bootstrap
 
 > This project consists of replicating the https://thenextweb.com/ website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
@@ -19,12 +19,6 @@
 - Github: [@githubhandle](https://github.com/abcussi)
 - Twitter: [@twitterhandle](https://twitter.com/thecussi)
 - Linkedin: [linkedin](https://www.linkedin.com/in/angel-cussi-1b2310174/)
-
-👤 **Diego Antonio Reyes Coronado**
-
-- Github: [@githubhandle](https://github.com/xtrmdarc)
-- Twitter: [@twitterhandle](https://twitter.com/DiegoAn91629127)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diego-reyes-coronado-7a7189b7/)
 
 
 ## 🤝 Contributing
