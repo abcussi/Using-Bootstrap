@@ -848,7 +848,7 @@ footer {
   color: rgb(102, 102, 102);
 }
 
-#border-none {
+.border-none {
   border: 0 !important;
 }
 
