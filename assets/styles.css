@@ -31,6 +31,8 @@ body {
   position: relative;
   height: 100%;
   align-items: flex-end;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .container .header ul > li {
@@ -64,6 +66,51 @@ body {
   margin-top: -18px;
   height: 60px;
   background: linear-gradient(225deg, transparent 45px, #fff 0);
+}
+
+#more-btn{
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+  .header-top {
+    height: 50px;
+    padding-bottom: 0;
+  }
+  .date{
+    display: none;
+  }
+  .header h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .container .header ul button {
+    margin-bottom: 10px;
+    height: 26px;
+    width: 126px;
+    padding-bottom: 0;
+  }
+  .container .header ul {
+    margin: 0;
+  }
+  .container .header ul .sign-in {
+    font-size: 18px;
+  }
+  .container .header ul .sign-in p {
+    margin-bottom: 10px;
+  }
+  .container .header ul li button {
+    padding: 0;
+  }
+  #more-btn{
+    display: inline-block;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    opacity: 0.5;
+  }
 }
 
 .navbar ul {
