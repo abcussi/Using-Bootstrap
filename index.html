@@ -14,17 +14,17 @@
 <body>
     <div class="header-top container">
         <header class="header d-flex flex-row justify-content-between align-items-end">
-            <p class="date">Mon, Febr 03, 2020</p>
-            <h1>Newsweek</h1>
+            <p class="date align-self-end">Mon, Febr 03, 2020</p>
+            <h1 class="align-self-end text-center">Newsweek</h1>
             <ul class="d-flex flex-row">
                 <li class="sign-in"><p>SIGN IN</p></li class="sign-in">
-                <li><button type="button" class="btn btn-light btn-large">SUBSCRIBE </button></li>
+                <li><button type="button" class="btn btn-light btn-large text-center">SUBSCRIBE </button></li>
             </ul>
         </header>
     </div>
 
     <div class="navbar container d-none d-lg-block">
-        <ul class="d-flex flex-row justify-content-between align-items-center">
+        <ul class="d-flex flex-row justify-content-between m-0 text-center">
             <li><a>U.S.</a></li>
             <li>world</li>
             <li>business</li>
@@ -41,8 +41,9 @@
             </li>
         </ul>
     </div>
-    <div     class="stories-section container-fluid">
-        <div class="row news-container" >
+
+    <div class="stories-section container-fluid p-0">
+        <div class="row news-container m-auto" >
             <section class="col-lg-3 col-md-6 ml-0 mr-0" >
                 <h5>featured stories</h5>
                 <article class="featured-history">
@@ -533,6 +534,21 @@
                             </h6>
                         </div>
                     </div>
+
+                    <div id="newsletter-signup" class="signup-news">
+                        <div class="content">
+                          <div class="signup-box">
+                            <div class="box-title d-flex align-items-center">
+                              <span class="icon-news"></span>
+                              Sign up for our Newsletter
+                            </div>
+                            <a href="#" class="gray-button">Sign up</a>
+                            <br>
+                            <a href="#" class="small-link">Update your preferences »</a>
+                          </div>
+                        </div>
+                      </div>
+                      
                 </section>
             </section>
         </div>
@@ -1515,16 +1531,49 @@
                 </section>
             </div>
         </section>
+        <footer class="">
+            <div class="footer-social pb-2 row"><h1 class="col mr-auto roder0 text-right">Newsweek</h1>
+              <span class="align-bottom col-6 align-left roder">© 2019 NEWSWEEK </span>
+              <div class="social-media float-right mt-3 col align-self-end text-right">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-tumblr"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div>
+              </div>
+            </div>
+            <div class="footer-links">
+              <div class="footer-naviagation-list mt-2 ">
+                <ul class="footer-list text-left"> 
+                    <li id="border-none"><a href="">Editions: </a></li>
+                    <li><a href="">U.S. Edition</a></li>
+                    <li><a href="">日本</a></li>
+                    <li><a href="">Pakistan</a></li>
+                    <li><a href="">Polska</a></li>
+                    <li><a href="">România</a></li>
+                  </ul>
+                <ul class="footer-list text-left">
+                    <li><a href="">About Us</a></li>
+                  <li><a href="">Corrections</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Editorial Guidelines</a></li>
+                  <li><a href="">Advertise</a></li>
+                  <li><a href="">Copyright</a></li>
+                  <li><a href="">Terms & Conditions</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Cookie Policy</a></li>
+                  <li><a href="">Term of Sale</a></li>
+                  <li><a href="">Archive</a></li>
+                  <li><a href="">Announcements</a></li>
+                  <li id="border-none"><a href="">Consent preferences</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-  <script src="scripts.js"></script>
+    
+   
 </body>
 </html>
