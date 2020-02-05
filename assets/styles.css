@@ -52,19 +52,23 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 465px) {
   .container .header ul {
     margin: 0;
     padding: 0;
   }
-  .container .header ul .sign-in p{
+
+  .container .header ul .sign-in p {
     font-size: 12px;
   }
+
   .container .header ul li button {
     width: 71px;
     font-size: 12px;
   }
 }
+
 .container .header ul button:hover,
 .container .header ul .sign-in:hover,
 .header h1 {
